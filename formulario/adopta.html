@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Adopción</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="titulo">Registro de Adopción</div>
+        <form action="#">
+            <div class="usuario detalles">
+                <div class="input-box">
+                    <span class="detalles">Nombre Completo</span>
+                    <input type="text" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="usuario detalles">
+                    <div class="input-box">
+                        <span class="detalles">Correo Electrónico</span>
+                        <input type="text" placeholder="Ingrese su correo" required>
+                    </div>
+                    <div class="usuario detalles">
+                        <div class="input-box">
+                            <span class="detalles">Teléfono</span>
+                            <input type="text" placeholder="Ingrese su teléfono" required>
+                        </div>
+                    </div>
+                    <div class="genero-detalles">
+                        <input type="radio" name="genero" id="punto-1">
+                        <input type="radio" name="genero" id="punto-2">
+                        <input type="radio" name="genero" id="punto-3">
+                        <span class="genero-titulo">Género</span>
+                        <div class="categoria">
+                            <label for="punto-1">
+                                <span class="punto uno"></span>
+                                <span class="genero">Masculino</span>
+                            </label>
+                            <label for="punto-2">
+                                <span class="punto dos"></span>
+                                <span class="genero">Femenino</span>
+                            </label>
+                            
+                            <label for="punto-3">
+                                
+                                <span class="punto tres"></span>
+                                <span class="genero">Personalizado</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+
+                    <center><div class="button">
+                       <input type="submit" value="Registrar">
+                    </div></center>
+        </form>
+    </div>
+    
+</body>
+</html>
